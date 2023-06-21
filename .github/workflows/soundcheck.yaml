@@ -16,6 +16,8 @@
             run: terraform init
           - name: Terraform validate
             run: terraform validate
+          - name: Terraform plan
+            run: terraform plan
           - name: multi line string
             run: |
                  pwd
