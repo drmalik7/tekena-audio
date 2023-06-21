@@ -12,4 +12,9 @@
             run: |
                  pwd
                  node -v
-                 ls -a
+    runs-windows-commands:
+        runs-on: windows-latest
+        steps:
+          - name: Directory
+            run: pwd
+            shell: bash
